@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>d2786b03-9840-44fa-b124-549b5e4f3a23</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Models\SendEmailModel.cs" />
+    <Content Include="Services\EmailService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\halfforgeHost.Client\halfforgeHost.Client.csproj" />
+    <PackageReference Include="MailKit" Version="4.16.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.25" />
+  </ItemGroup>
+
+</Project>

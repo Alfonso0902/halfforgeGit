@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="halfforgeHost/halfforgeHost.Client/halfforgeHost.Client.csproj" />
+  <Project Path="halfforgeHost/halfforgeHost/halfforgeHost.csproj" />
+</Solution>
